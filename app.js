@@ -15,7 +15,7 @@ var postingRouter = require("./routes/posting")
 
 const history = require("connect-history-api-fallback")
 app.use(history())
-//app.use(express.static("public"))
+//app.use(express.static("public")) 이거 없어도 빌드 잘 되네..? 왜지
 //app.use("/", indexRouter)
 
 let url =
